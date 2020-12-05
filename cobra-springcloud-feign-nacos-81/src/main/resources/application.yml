@@ -1,0 +1,11 @@
+server:
+  port: 81
+spring:
+  application:
+    ## 应用名
+    name: feign-nacos-consumer
+  ## nacos服务地址
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848

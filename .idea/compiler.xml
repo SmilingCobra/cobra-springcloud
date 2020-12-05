@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cobra-springcloud-payment-nacos-8002" />
+        <module name="cobra-springcloud-feign-80" />
+        <module name="cobra-springcloud-payment-8001" />
+        <module name="cobra-springcloud-eureka-9001" />
+        <module name="cobra-springcloud-feign-nacos-81" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cobra-springcloud-eureka-9001" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
